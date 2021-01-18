@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Box</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Comments Box</h2>
+        <div class="container-box">
+            <!-- <form> -->
+                <input type="text" name="comment-box" id="comment-box" placeholder="Enter Comment" required>
+                <input type="submit" value="Submit" class="submit" onclick="submitComment()">
+            <!-- </form> -->
+        </div>
+        <div> 
+        <ul class="comments-list" id="comments-list">
+
+        </ul>
+        </div>
+    </div>
+</body>
+
+</html>
